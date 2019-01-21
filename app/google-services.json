@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "724387942164",
+    "firebase_url": "https://desafiouds.firebaseio.com",
+    "project_id": "desafiouds",
+    "storage_bucket": "desafiouds.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724387942164:android:51a94c24890688b0",
+        "android_client_info": {
+          "package_name": "com.mario.desafiouds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724387942164-5625k3eili49julh0ng9sfq7417kfdpc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mario.desafiouds",
+            "certificate_hash": "d016217813508b253df9af815d2c38fe8a72c2cb"
+          }
+        },
+        {
+          "client_id": "724387942164-fdhtuaai1embg3vpn8nvctanc2c8ig9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3UZ0jS68h-izFF8o0fcjLFDuSrWKUs60"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724387942164-fdhtuaai1embg3vpn8nvctanc2c8ig9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

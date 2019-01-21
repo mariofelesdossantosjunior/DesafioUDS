@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#fafafa"
+              android:orientation="vertical"
+              android:paddingBottom="16dp"
+              android:paddingEnd="16dp"
+              android:paddingLeft="16dp"
+              android:paddingStart="16dp">
+
+    <View
+            android:id="@+id/item_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="16dp"
+            android:background="#D3D3D3" />
+
+    <TextView
+            android:id="@+id/text_title_schedule_open"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="18sp"
+            tools:text="@string/title" android:layout_margin="0dp" android:textStyle="bold"/>
+
+    <TextView
+            android:text="@string/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/txt_description_schedule_open"
+            android:layout_margin="0dp" android:textSize="14sp"/>
+    <LinearLayout
+            android:id="@+id/sub_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/sub_txt_detail_schedule_open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                tools:text="@string/detail" android:layout_margin="0dp"/>
+        <TextView
+                android:text="@string/autor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/sub_txt_author_schedule_open"
+                android:layout_margin="0dp" android:textSize="14sp"/>
+        <Button
+                android:text="@string/close"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" android:id="@+id/button_close_schedule"
+                android:background="@drawable/circle_button_orange" android:textColor="@android:color/white"
+                android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
+        <Button
+                android:text="@string/reopen"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content" android:id="@+id/button_reopen_schedule"
+                android:background="@drawable/circle_button_orange" android:textColor="@android:color/white"
+                android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+</LinearLayout>
